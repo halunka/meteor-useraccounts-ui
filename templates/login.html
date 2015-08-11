@@ -1,0 +1,12 @@
+<template name="useraccountsLogin">
+  <form class="useraccountsLogin">
+    {{ #with message }}
+      <p class="useraccountsLogin__message useraccountsLogin__message--{{ type }}">
+        {{ text }}
+      </p>
+    {{ /with }}
+    <input class="useraccountsLogin__username" type="text" name="username">
+    <input class="useraccountsLogin__password" type="password" name="password">
+    <input class="useraccountsLogin__submit" type="submit" value="{{ defaultValue submitButton 'Login' }}">
+  </form>
+</template>
