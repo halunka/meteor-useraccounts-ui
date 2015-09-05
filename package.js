@@ -1,7 +1,7 @@
 Package.describe({
   name: 'halunka:useraccounts-ui',
   version: '0.0.1',
-  summary: 'Lighweight, reactive, isomorphic, extendable useraccounts package for meteor using MongoDB'
+  summary: 'Lighweight, reactive, isomorphic, extendable useraccounts package for meteor using MongoDB',
   repository: 'https://github.com/halunka/meteor-useraccounts-ui',
   docs: 'README.md'
 })
