@@ -11,7 +11,9 @@ Package.onUse(function (api) {
   api.addFiles([
     'lib/utilities.js',
     'templates/useraccountsLogin.html',
+    'templates/useraccountsLogout.html',
     'helpers/login.js',
+    'helpers/logout.js',
     'helpers/global.js'
   ], 'client')
 })
