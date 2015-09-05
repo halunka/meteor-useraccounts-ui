@@ -1,6 +1,6 @@
 Package.describe({
   name: 'halunka:useraccounts-ui',
-  version: '0.0.0',
+  version: '0.0.1',
   repository: 'https://github.com/halunka/meteor-useraccounts-ui',
   docs: 'README.md'
 })
@@ -17,3 +17,4 @@ Package.onUse(function (api) {
     'helpers/global.js'
   ], 'client')
 })
+
