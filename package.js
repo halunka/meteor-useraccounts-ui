@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'halunka:useraccouts-ui',
+  name: 'halunka:useraccounts-ui',
   version: '0.0.0',
   repository: 'https://github.com/halunka/meteor-useraccounts-ui',
   docs: 'README.md'
@@ -10,7 +10,7 @@ Package.onUse(function (api) {
   api.use(['accounts-base', 'templating', 'accounts-password', 'underscore', 'reactive-var'])
   api.addFiles([
     'lib/utilities.js',
-    'templates/login.html',
+    'templates/useraccountsLogin.html',
     'helpers/login.js',
     'helpers/global.js'
   ], 'client')
